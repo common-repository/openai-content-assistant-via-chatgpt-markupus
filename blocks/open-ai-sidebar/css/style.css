@@ -1,0 +1,27 @@
+.components__item {
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.components-modal__loader {
+    text-align: center;
+}
+.mopen-ai__buton-group {
+    display: flex;
+    justify-content: space-between;
+}
+.mopen-ai__body {
+    padding: 10px;
+}
+.components-notice.is-error,
+.components-notice.is-success,
+.components-notice.is-dismissible {
+    padding-right: 0;
+}
+.active-tab {
+    box-shadow: inset 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+}
+.components-notice__content {
+    overflow: auto;
+    margin-right: 0;
+}
